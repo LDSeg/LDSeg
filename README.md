@@ -28,7 +28,7 @@ A few examples of segmentation are shown below for the Echo, GlaS and Knee datas
 --------------------
 
 ## Sampling Algorithms
-An example of Echo segmentation for DDPM [1] and DDIM [2] sampling algorithms with 20 evenly spaced sampling steps are shown below. Here, $h(m)$ is the low-dimensional latent space distribution and $h(\tilde{m}_t)$ is the estimated distribution for timestep $t$. $S$ is the obtained segmentation.
+An example of Echo segmentation for DDPM [1] and DDIM [2] sampling algorithms with 20 evenly spaced sampling steps are shown below. The left most box shows KDE plot for the pixel intesities of the low-dimensional latent space $m_0$ and estimated $\tilde{m}_t$ for timestep $t$.
 
 --------------------
 
